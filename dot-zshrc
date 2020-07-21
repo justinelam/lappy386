@@ -1,0 +1,20 @@
+alias pipdate3="pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U"
+
+alias jpip="`find /usr/local/Cellar/jupyterlab | grep /bin/python3$` -m pip"
+alias jpipdate3="`find /usr/local/Cellar/jupyterlab | grep /bin/python3$` -m pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 `find /usr/local/Cellar/jupyterlab | grep /bin/python3$` -m pip install -U"
+alias jenv="`find /usr/local/Cellar/jupyterlab | grep /bin/python3$` -m venv"
+
+##PROMPT='%F{red}%B ★ %b%F{cyan}%~%f %# '
+
+export ANDROID_SDK_ROOT='/Users/christopher/Library/Android/sdk'
+## export JAVA_HOME=$(/usr/libexec/java_home -v 14)
+export JAVA_HOME='/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home'
+export JDK7_HOME=$JAVA_HOME
+##export JAVA_HOME='/usr/local/Cellar/openjdk@11/11.0.7+10'
+
+eval "$(starship init zsh)"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH="/usr/local/sbin:$PATH"
