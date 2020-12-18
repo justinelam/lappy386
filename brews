@@ -4,21 +4,22 @@ ffmpeg
 jupyterlab
 # maven
 starship
-youtube-dl
+# youtube-dl
 
 ## Casks
 1password
 # android-studio
+docker
 font-hack-nerd-font
 font-source-code-pro
 github
 google-chrome
 microsoft-office
 notion
-oracle-jdk
-quip
+# oracle-jdk
+# quip
 slack
 spotify
 visual-studio-code
-vmware-fusion
+# vmware-fusion
 zoomus
