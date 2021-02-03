@@ -1,25 +1,36 @@
-## Leaves (minus python@3.8)
+## Leaves
+asdf
+docker
 ffmpeg
-# gradle
+helm
+iterativelyhq/itly/itly
 jupyterlab
-# maven
+kind
+kubernetes-cli
+prometheus
+skaffold
 starship
-# youtube-dl
+youtube-dl
+
 
 ## Casks
 1password
 # android-studio
+anaconda
 docker
 font-hack-nerd-font
 font-source-code-pro
 github
 google-chrome
+google-cloud-sdk
 microsoft-office
 notion
 # oracle-jdk
+postman
 # quip
 slack
 spotify
+# virtualbox
 visual-studio-code
 # vmware-fusion
-zoomus
+zoom
