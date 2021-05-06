@@ -1,5 +1,4 @@
 ## Leaves
-asdf
 docker
 ffmpeg
 helm
@@ -7,7 +6,6 @@ iterativelyhq/itly/itly
 jupyterlab
 kind
 kubernetes-cli
-prometheus
 python
 skaffold
 starship
@@ -17,17 +15,18 @@ youtube-dl
 ## Casks
 1password
 # android-studio
-anaconda
+# anaconda
 docker
 font-hack-nerd-font
 font-source-code-pro
 github
 google-chrome
+# google-chrome-canary
 google-cloud-sdk
 microsoft-office
 notion
 # oracle-jdk
-postman
+# postman
 # quip
 slack
 spotify
