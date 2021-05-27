@@ -7,7 +7,6 @@ jupyterlab
 kind
 kubernetes-cli
 python
-skaffold
 starship
 youtube-dl
 
