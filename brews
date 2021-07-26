@@ -1,11 +1,12 @@
 ## Leaves
-docker
+# docker
 ffmpeg
-helm
-iterativelyhq/itly/itly
+gmp
+# helm
+# iterativelyhq/itly/itly
 jupyterlab
-kind
-kubernetes-cli
+# kind
+# kubernetes-cli
 python
 starship
 youtube-dl
@@ -15,10 +16,10 @@ youtube-dl
 1password
 # android-studio
 # anaconda
-docker
+# docker
 font-hack-nerd-font
 font-source-code-pro
-github
+# github
 google-chrome
 # google-chrome-canary
 google-cloud-sdk
