@@ -1,36 +1,35 @@
-## Leaves
-# docker
 ffmpeg
 gmp
-# helm
-# iterativelyhq/itly/itly
 jupyterlab
-# kind
-# kubernetes-cli
 python
 starship
 youtube-dl
-
-
-## Casks
 1password
 1password-cli
+font-source-code-pro
+google-chrome
+notion
+slack
+spotify
+visual-studio-code
+zoom
+
+## Leaves
+# docker
+# helm
+# kind
+# kubernetes-cli
+
+## Casks
 # android-studio
 # anaconda
 # docker
-font-source-code-pro
 # github
-google-chrome
 # google-chrome-canary
 # google-cloud-sdk
 # microsoft-office
-notion
 # oracle-jdk
 # postman
 # quip
-slack
-spotify
 # virtualbox
-visual-studio-code
 # vmware-fusion
-zoom
