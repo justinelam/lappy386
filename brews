@@ -5,7 +5,6 @@ python
 starship
 youtube-dl
 1password
-1password-cli
 font-source-code-pro
 google-chrome
 notion
@@ -21,6 +20,7 @@ zoom
 # kubernetes-cli
 
 ## Casks
+# 1password-cli
 # android-studio
 # anaconda
 # docker
