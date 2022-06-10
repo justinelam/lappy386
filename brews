@@ -1,25 +1,26 @@
+## Leaves
+1password
 ffmpeg
 gmp
-jupyterlab
-python
-starship
-youtube-dl
-1password
-font-source-code-pro
 google-chrome
+homebrew/cask-fonts/font-source-code-pro
+jupyterlab
 notion
+python
 slack
 spotify
+starship
 visual-studio-code
+youtube-dl
 zoom
 
-## Leaves
+## Former Leaves
 # docker
 # helm
 # kind
 # kubernetes-cli
 
-## Casks
+## Former Casks
 # 1password-cli
 # android-studio
 # anaconda
