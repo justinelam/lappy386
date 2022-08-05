@@ -1,5 +1,4 @@
 ## Leaves
-svn
 1password
 ffmpeg
 gmp
@@ -7,7 +6,6 @@ google-chrome
 homebrew/cask-fonts/font-source-code-pro
 jupyterlab
 notion
-ocrmypdf
 python
 slack
 spotify
@@ -17,10 +15,7 @@ youtube-dl
 zoom
 
 ## Former Leaves
-# docker
-# helm
-# kind
-# kubernetes-cli
+# ocrmypdf
 
 ## Former Casks
 # 1password-cli
