@@ -9,6 +9,5 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 ## INSTALL BREW PACKAGES
-# optional - python gradle maven
 brew tap homebrew/cask-fonts
 brew install $(cat brews)
