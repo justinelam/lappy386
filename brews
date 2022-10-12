@@ -3,10 +3,13 @@
 ffmpeg
 gmp
 google-chrome
+google-cloud-sdk
 font-fira-code-nerd-font
 jupyterlab
+mosh
 notion
 python
+rclone
 slack
 spotify
 starship
@@ -24,7 +27,6 @@ zoom
 # docker
 # github
 # google-chrome-canary
-# google-cloud-sdk
 # microsoft-office
 # oracle-jdk
 # postman
