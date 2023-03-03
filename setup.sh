@@ -10,4 +10,5 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 ## INSTALL BREW PACKAGES
 brew tap homebrew/cask-fonts
+brew tap teamookla/speedtest
 brew install $(cat brews)
