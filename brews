@@ -1,28 +1,35 @@
 ## Leaves
 1password
-ffmpeg
+bettertouchtool
+brave-browser
+discord 
+itsycal
 gmp
 google-chrome
-google-cloud-sdk
-font-fira-code-nerd-font
-jupyterlab
-mosh
 notion
-python
-rclone
-slack
-speedtest
+onyx
 spotify
 starship
 visual-studio-code
-youtube-dl
-zoom
-mountain-duck discord onyx grammarly-desktop plex steam vmware-fusion transmission-cli
-itsycal
-altserver
-bettertouchtool
 signal
-brave-browser
+slack
+steam
+vmware-fusion
+zoom
+# ffmpeg
+# google-cloud-sdk
+# font-fira-code-nerd-font
+# jupyterlab
+# mosh
+# python
+# rclone
+# speedtest
+# youtube-dl
+# mountain-duck 
+# grammarly-desktop
+# plex
+# transmission-cli
+# altserver
 
 # --cask DamascenoRafael/tap/reminders-menubar
 
@@ -41,4 +48,3 @@ brave-browser
 # postman
 # quip
 # virtualbox
-# vmware-fusion
