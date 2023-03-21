@@ -1,25 +1,5 @@
-alias pipdate3="pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U"
-
-alias jpip="`find /usr/local/Cellar/jupyterlab | grep /bin/python3$` -m pip"
-alias jpipdate3="`find /usr/local/Cellar/jupyterlab | grep /bin/python3$` -m pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 `find /usr/local/Cellar/jupyterlab | grep /bin/python3$` -m pip install -U"
-alias jenv="`find /usr/local/Cellar/jupyterlab | grep /bin/python3$` -m venv"
-alias awssh="ssh -i "~/.ssh/funkier.pem" ec2-user@ec2-54-191-161-123.us-west-2.compute.amazonaws.com"
-alias keyenv="export SSH_PRV_KEY=\$(openssl rsa -in ~/.ssh/id_rsa)"
-
-alias git-clone='function __gitclone() { git clone https://$GIT_USERNAME:$GIT_PASSWORD@$1; unset -f __gitclone; }; __gitclone'
-alias shell='ssh christopher_seaman_gmail_com@shell.sqrl.ly'
-alias cloud-shell='/root/google-cloud-sdk/bin/gcloud cloud-shell ssh --authorize-session'
-
-## PROMPT='%F{red}%B ★ %b%F{cyan}%~%f %# '
-
+# Start starship (cross-shell prompt)
 eval "$(starship init zsh)"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-export PATH="/usr/local/sbin:$PATH"
-
-gcloud config set project silicon-shape-277704
-export CODE_PASSWORD=$(gcloud secrets versions access latest --secret='CODE_PASSWORD')
-export SUDO_PASSWORD=$(gcloud secrets versions access latest --secret='SUDO_PASSWORD')
-
+# Enable bash completion for asdf
+. /usr/local/opt/asdf/libexec/asdf.sh
