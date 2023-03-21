@@ -1,7 +1,10 @@
-## Leaves
+## GMP for abitrary precision computation
+
+## `asdf` version manager + deps
 asdf
-gmp
 xv
+gpg
+gawk
 
 ## Casks
 1password
