@@ -1,11 +1,24 @@
 ## Leaves
+asdf
+gmp
+xv
+
+## Casks
 1password
 bettertouchtool
 brave-browser
 discord 
+font-fira-code
+font-fira-code-nerd-font
+font-source-code-pro
+font-source-sans-pro
+font-source-serif-pro
+# google-cloud-sdk
 itsycal
 gmp
 google-chrome
+# microsoft-office
+mountain-duck
 notion
 onyx
 spotify
@@ -13,38 +26,8 @@ starship
 visual-studio-code
 signal
 slack
+speedtest
 steam
 vmware-fusion
+youtube-dl
 zoom
-# ffmpeg
-# google-cloud-sdk
-# font-fira-code-nerd-font
-# jupyterlab
-# mosh
-# python
-# rclone
-# speedtest
-# youtube-dl
-# mountain-duck 
-# grammarly-desktop
-# plex
-# transmission-cli
-# altserver
-
-# --cask DamascenoRafael/tap/reminders-menubar
-
-## Former Leaves
-# ocrmypdf
-
-## Former Casks
-# 1password-cli
-# android-studio
-# anaconda
-# docker
-# github
-# google-chrome-canary
-# microsoft-office
-# oracle-jdk
-# postman
-# quip
-# virtualbox
