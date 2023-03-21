@@ -1,4 +1,7 @@
+## COPY DOT-FILES
 cat dot-zshrc >> ~/.zshrc
+mkdir -p ~/.ssh
+cat dotssh-config >> ~/.ssh/config
 
 ## INSTALL NVM
 ## https://github.com/nvm-sh/nvm
