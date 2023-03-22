@@ -1,38 +1,9 @@
 ## GMP for abitrary precision computation
+gmp
 
 ## `asdf` version manager + deps
 asdf
-xv
-gpg
-gawk
-
-## Casks
-1password
-bettertouchtool
-brave-browser
-discord 
-font-fira-code
-font-fira-code-nerd-font
-font-source-code-pro
-font-source-sans-pro
-font-source-serif-pro
-# google-cloud-sdk
-itsycal
-gmp
-google-chrome
-# microsoft-office
-mountain-duck
-notion
-onyx
-spotify
-starship
-visual-studio-code
-signal
-skitch
-slack
-speedtest
-steam
-unite
-vmware-fusion
-youtube-dl
-zoom
+# Explicit dependencies
+# xv
+# gpg
+# gawk
