@@ -18,3 +18,4 @@ brew install --cask $(cat casks.lst)
 asdf plugin add awscli
 asdf plugin add nodejs
 asdf plugin add python
+asdf install
