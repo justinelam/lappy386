@@ -6,7 +6,7 @@ cp dottool-versions >> ~/.tool-versions
 
 ## INSTALL HOMEBREW
 ## https://brew.sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 ## INSTALL BREW PACKAGES
 brew tap homebrew/cask-fonts
