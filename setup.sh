@@ -11,8 +11,8 @@ cat dottool-versions >> ~/.tool-versions
 ## INSTALL BREW PACKAGES
 brew tap homebrew/cask-fonts
 brew tap teamookla/speedtest
-brew install $(cat brews.lst)
-brew install --cask $(cat casks.lst)
+brew install $(grep -v '#' brews.lst)
+brew install --cask $(grep -v '#' casks.lst)
 
 ## USE ASDF TO INSTALL TOOLS
 asdf plugin add awscli
