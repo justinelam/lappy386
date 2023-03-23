@@ -1,2 +1,9 @@
+## GMP for abitrary precision computation
 gmp
+
+## `asdf` version manager + deps
 asdf
+# Explicit dependencies
+# xv
+# gpg
+# gawk
