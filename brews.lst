@@ -1,12 +1,10 @@
-## STARSHIP AS CROSS-SHELL PROMPT
-starship
-
 ## CODE NECESSITIES
 python3
 gmp
 awscli
 
 ## QUALITY-OF-LIFE
+starship
 font-fira-code
 font-fira-code-nerd-font
 font-source-code-pro
