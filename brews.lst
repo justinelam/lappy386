@@ -1,12 +1,20 @@
-## Starship as cross-shell prompt
+## STARSHIP AS CROSS-SHELL PROMPT
 starship
 
-## GMP for abitrary precision computation
+## VARIOUS FRIENDS
+font-fira-code
+font-fira-code-nerd-font
+font-source-code-pro
+font-source-sans-pro
+font-source-serif-pro
+speedtest
+
+## GMP FOR ARBITRARY PRECISION
 gmp
 
-## `asdf` version manager + deps
+## ASDF VERSION MANAGER + DEPS
 asdf
-# Explicit dependencies
+## EXPLICIT DEPENDENCIES IF NEEDED
 # xv
 # gpg
 # gawk
