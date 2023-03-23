@@ -1,22 +1,15 @@
 ## STARSHIP AS CROSS-SHELL PROMPT
 starship
 
-## VARIOUS FRIENDS
+## CODING QUALITY-OF-LIFE
 font-fira-code
 font-fira-code-nerd-font
 font-source-code-pro
 font-source-sans-pro
 font-source-serif-pro
+gmp
+awscli
+
+## VARIOUS FRIENDS
 speedtest
 youtube-dl
-
-## GMP FOR ARBITRARY PRECISION
-gmp
-
-## ASDF VERSION MANAGER + DEPS
-asdf
-## EXPLICIT DEPENDENCIES IF NEEDED
-coreutils
-gpg
-gawk
-xz
