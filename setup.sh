@@ -18,8 +18,7 @@ brew tap teamookla/speedtest
 brew install $(grep -v '#' brews.lst)
 brew install --cask $(grep -v '#' casks.lst)
 
-## USE ASDF TO INSTALL TOOLS
-asdf plugin add awscli
-asdf plugin add nodejs
-asdf plugin add python
-asdf install
+## INSTALL NVM AND NODE
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+source .zshrc & nvm install --lts
+
