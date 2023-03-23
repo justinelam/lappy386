@@ -19,7 +19,6 @@ brew install $(grep -v '#' brews.lst)
 brew install --cask $(grep -v '#' casks.lst)
 
 ## USE ASDF TO INSTALL TOOLS
-echo "$(brew --prefix asdf)/libexec/asdf.sh" >> ${ZDOTDIR:-~}/.zshrc
 asdf plugin add awscli
 asdf plugin add nodejs
 asdf plugin add python
