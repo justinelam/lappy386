@@ -15,6 +15,6 @@ gmp
 ## ASDF VERSION MANAGER + DEPS
 asdf
 ## EXPLICIT DEPENDENCIES IF NEEDED
-xv
+coreutils
 gpg
 gawk
