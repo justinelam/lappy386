@@ -1,8 +1,8 @@
 ## COPY DOT-FILES
-cp dot-zshrc >> ~/.zshrc
+cat dot-zshrc >> ~/.zshrc
 mkdir -p ~/.ssh
-cp dotssh-config >> ~/.ssh/config
-cp dottool-versions >> ~/.tool-versions
+cat dotssh-config >> ~/.ssh/config
+cat dottool-versions >> ~/.tool-versions
 
 ## INSTALL HOMEBREW
 ## https://brew.sh
