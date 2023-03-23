@@ -4,6 +4,10 @@ mkdir -p ~/.ssh
 cat dotssh-config >> ~/.ssh/config
 cat dottool-versions >> ~/.tool-versions
 
+
+git config --global user.name 'Christopher Seaman'
+git config --global user.email '86775+christopherseaman@users.noreply.github.com'
+
 ## INSTALL HOMEBREW
 ## https://brew.sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -21,4 +25,3 @@ brew install --cask $(grep -v '#' casks.lst)
 ## INSTALL NVM AND NODE
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 source .zshrc & nvm install --lts
-
