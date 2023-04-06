@@ -1,9 +1,7 @@
 ## COPY DOT-FILES
-cat dot-zshrc >> ~/.zshrc
+cat dot-zshrc | tee -a ~/.zshrc
 mkdir -p ~/.ssh
-cat dotssh-config >> ~/.ssh/config
-cat dottool-versions >> ~/.tool-versions
-
+cat dotssh-config | tee -a ~/.ssh/config
 
 git config --global user.name 'Christopher Seaman'
 git config --global user.email '86775+christopherseaman@users.noreply.github.com'
