@@ -1,2 +1,3 @@
 # Start starship (cross-shell prompt)
 eval "$(starship init zsh)"
+(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"')
