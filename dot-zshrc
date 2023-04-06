@@ -1,5 +1,2 @@
 # Start starship (cross-shell prompt)
 eval "$(starship init zsh)"
-
-# Enable bash completion for asdf
-. /usr/local/opt/asdf/libexec/asdf.sh
