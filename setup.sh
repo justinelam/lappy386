@@ -12,10 +12,6 @@ git config --global user.email '86775+christopherseaman@users.noreply.github.com
 ## https://brew.sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-## ADD HOMEBREW TO PATH
-(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/christopher/.zprofile
-eval "$(/usr/local/bin/brew shellenv)"
-
 ## INSTALL BREW PACKAGES
 brew tap homebrew/cask-fonts
 brew tap teamookla/speedtest
