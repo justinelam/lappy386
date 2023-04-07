@@ -2,6 +2,7 @@
 iterm2
 python3
 gmp
+gpg2
 adns
 awscli
 autoconf
