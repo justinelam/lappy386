@@ -60,7 +60,6 @@ pcre2
 pinentry
 pinentry-mac
 pkg-config
-postgresql@9.5
 rbenv
 ruby-build
 readline
