@@ -86,8 +86,8 @@ c-ares
 autojump
 zsh-syntax-highlighting
 starship
-font-fira-code
-font-fira-code-nerd-font
+# font-fira-code
+# font-fira-code-nerd-font
 font-source-code-pro
 font-source-sans-pro
 font-source-serif-pro
