@@ -16,4 +16,4 @@ brew install --cask $(grep -v '#' casks.lst)
 
 ## INSTALL NVM AND NODE
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-source .zshrc & nvm install --lts
+source ~/.zshrc & nvm install --lts
