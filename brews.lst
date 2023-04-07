@@ -74,6 +74,7 @@ yajl
 openssl@3
 openssl@1.1
 zstd
+zsh
 
 ## C#
 avro-c
