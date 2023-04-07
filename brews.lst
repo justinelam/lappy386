@@ -88,9 +88,9 @@ zsh-syntax-highlighting
 starship
 # font-fira-code
 # font-fira-code-nerd-font
-font-source-code-pro
-font-source-sans-pro
-font-source-serif-pro
+# font-source-code-pro
+# font-source-sans-pro
+# font-source-serif-pro
 
 ## VARIOUS FRIENDS
 speedtest
