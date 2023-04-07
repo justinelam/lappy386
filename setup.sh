@@ -16,7 +16,7 @@ brew install --cask $(grep -v '#' casks.lst)
 
 ## INSTALL NVM AND NODE
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-source .zshrc & nvm install --lts
+source ~/.zshrc & nvm install --lts
 
 ## INSTALL OH MY ZSH https://ohmyz.sh/#install
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
