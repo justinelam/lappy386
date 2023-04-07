@@ -24,7 +24,7 @@ gnupg
 gnutls
 guile
 haproxy
-kafkacat
+#kafkacat
 kcat
 libassuan
 libev
