@@ -1,7 +1,6 @@
 [user]
 	name = Justine Lam
 	email = jlam@opentable.com
-	signingkey = CA4867C7D6562A7A
 
 [push]
   default = simple
