@@ -18,3 +18,14 @@ Add new Signing key using 1Password and add to .gitconfig file so that you'll se
 
  <img width="428" alt="Screenshot 2023-04-07 at 4 41 24 PM" src="https://user-images.githubusercontent.com/1539045/230692580-24f1c2cc-80bc-463f-b7a2-0a4089d741a8.png">
 
+
+## ZSH configuration
+It'll complain that we're missing some plugins so you'll have to clone them into this folder
+
+```
+$ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+
+$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+
+$ source ~/.zshrc
+`
