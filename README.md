@@ -30,5 +30,9 @@ $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zs
 $ source ~/.zshrc
 `
 
-## Gas mask
-Add gas mask config files
+## Localhosts files
+Add app for switching between localhosts files
+
+Might be outdated configs:
+https://github.com/opentable/OTEnvironmentHosts/blob/master/hosts_preprod
+https://github.com/opentable/OTEnvironmentHosts/blob/master/hosts_production
