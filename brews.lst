@@ -72,6 +72,7 @@ wangle
 watchman
 xz
 yajl
+yarn
 openssl@3
 openssl@1.1
 zstd
