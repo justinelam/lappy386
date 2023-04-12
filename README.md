@@ -28,10 +28,10 @@ $ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom
 $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
 $ source ~/.zshrc
-`
+```
 
 ## Localhosts files
-Add app for switching between localhosts files
+Add app for switching between localhosts files. Gas mask doesn't work with m2 chip
 
 Might be outdated configs:
 https://github.com/opentable/OTEnvironmentHosts/blob/master/hosts_preprod
