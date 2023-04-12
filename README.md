@@ -29,3 +29,6 @@ $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zs
 
 $ source ~/.zshrc
 `
+
+## Gas mask
+Add gas mask config files
