@@ -9,6 +9,7 @@ autoconf
 ca-certificates
 code-server
 docker-compose
+docker
 edencommon
 fb303
 fbthrift
