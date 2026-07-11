@@ -16,6 +16,7 @@ install_dotfile() {  # install_dotfile <source-in-repo> <dest>
 install_dotfile dot-zshrc      ~/.zshrc
 install_dotfile dotssh-config  ~/.ssh/config
 install_dotfile dotgitconfig   ~/.gitconfig
+install_dotfile starship.toml  ~/.config/starship.toml
 
 ## INSTALL HOMEBREW
 ## https://brew.sh

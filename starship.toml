@@ -1,0 +1,11 @@
+# Show the full working directory in the prompt.
+[directory]
+truncate_to_repo = false   # show the full path, not just the repo-relative part
+truncation_length = 0       # don't drop leading path segments ($HOME shows as ~)
+truncation_symbol = "…/"    # (only appears if truncation_length is later limited)
+
+# Git branch — starship shows this by default; use a plain-text label instead of
+# a Nerd Font glyph so it renders even without a Nerd Font installed.
+[git_branch]
+symbol = ""
+format = "on [$branch]($style) "

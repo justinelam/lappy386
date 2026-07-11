@@ -37,7 +37,9 @@ $ source ~/.zshrc
 
 What the config sets up:
 
-- **Prompt:** starship (replaces the old oh-my-zsh theme).
+- **Prompt:** starship (replaces the old oh-my-zsh theme). Configured in
+  `starship.toml` (installed to `~/.config/starship.toml`) to show the **full
+  working directory** and the **git branch** as plain text (no Nerd Font needed).
 - **Directory jumping:** [zoxide](https://github.com/ajeetdsouza/zoxide), aliased to
   `j` so it's a drop-in for the muscle memory from autojump (`j <dir>`). Install
   `fzf` too if you want the interactive `ji` picker.
