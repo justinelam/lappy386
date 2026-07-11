@@ -3,7 +3,13 @@
 Setting up a new laptop for work mostly.
 
 ## Run script
-`bash setup.sh` to install apps using brew and setting up zsh config and nvm
+`bash setup.sh` to install apps using brew and set up zsh/ssh/git config and nvm.
+
+The dotfile install step is idempotent: `setup.sh` **copies** `dot-zshrc`, `dotssh-config`,
+and `dotgitconfig` into place (backing up any existing file to `<file>.bak.<timestamp>`)
+rather than appending, so it's safe to re-run.
+
+> Targets **Apple Silicon (arm64)** — Homebrew lives at `/opt/homebrew`.
 
 
 ## Manual installation
@@ -20,15 +26,31 @@ Add new Signing key using 1Password and add to .gitconfig file so that you'll se
 
 
 ## ZSH configuration
-It'll complain that we're missing some plugins so you'll have to clone them into this folder
+`dot-zshrc` is a **self-contained** config (no oh-my-zsh required). The prompt is
+[starship](https://starship.rs) and plugins are installed from Homebrew (they're in
+`brews.lst`), so there's nothing to clone — just install the formulae and reload:
 
 ```
-$ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-
-$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-
+$ brew install starship zsh-autosuggestions zsh-syntax-highlighting zoxide
 $ source ~/.zshrc
 ```
+
+What the config sets up:
+
+- **Prompt:** starship (replaces the old oh-my-zsh theme).
+- **Directory jumping:** [zoxide](https://github.com/ajeetdsouza/zoxide), aliased to
+  `j` so it's a drop-in for the muscle memory from autojump (`j <dir>`). Install
+  `fzf` too if you want the interactive `ji` picker.
+- **Autosuggestions** (`zsh-autosuggestions`) and **syntax highlighting**
+  (`zsh-syntax-highlighting`, sourced last, as required).
+- **Keybindings:** forces the emacs keymap (`bindkey -e`) and explicitly binds
+  `Ctrl-A`/`Ctrl-E` to beginning/end of line — fixes Ctrl-A breaking when the shell
+  lands in vi mode.
+- **iTerm2 shell integration** is sourced if present (`~/.iterm2_shell_integration.zsh`).
+- Version managers `rbenv` and `nvm` are loaded if installed.
+
+All `source` lines are guarded, so a fresh machine won't error before the tools are
+installed. `compinit -i` skips insecure completion dirs instead of prompting.
 
 ## Localhosts files
 Add app for switching between localhosts files. Gas mask doesn't work with m2 chip

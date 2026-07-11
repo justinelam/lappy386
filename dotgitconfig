@@ -1,6 +1,6 @@
 [user]
 	name = Justine Lam
-	email = jlam@opentable.com
+	email = 1539045+justinelam@users.noreply.github.com
 
 [push]
   default = simple
@@ -60,5 +60,5 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = gpg2
+	program = gpg
 

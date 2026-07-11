@@ -86,8 +86,9 @@ boost
 c-ares
 
 ## QUALITY-OF-LIFE
-autojump
+zoxide
 zsh-syntax-highlighting
+zsh-autosuggestions
 starship
 # font-fira-code
 # font-fira-code-nerd-font

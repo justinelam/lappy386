@@ -1,8 +1,21 @@
 ## COPY DOT-FILES
-cat dot-zshrc | tee -a ~/.zshrc
-mkdir -p ~/.ssh
-cat dotssh-config | tee -a ~/.ssh/config
-cat dotgitconfig | tee -a ~/.gitconfig
+## Copy (overwrite) instead of appending so re-running setup.sh is idempotent.
+## The old `cat <file> | tee -a` approach is deprecated: dot-zshrc is now a
+## complete standalone config, and appending duplicated it on every run.
+install_dotfile() {  # install_dotfile <source-in-repo> <dest>
+  src="$1"; dest="$2"
+  mkdir -p "$(dirname "$dest")"
+  if [ -f "$dest" ]; then
+    cp "$dest" "$dest.bak.$(date +%Y%m%d%H%M%S)"
+    echo "backed up existing $dest"
+  fi
+  cp "$src" "$dest"
+  echo "installed $dest"
+}
+
+install_dotfile dot-zshrc      ~/.zshrc
+install_dotfile dotssh-config  ~/.ssh/config
+install_dotfile dotgitconfig   ~/.gitconfig
 
 ## INSTALL HOMEBREW
 ## https://brew.sh
