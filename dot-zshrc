@@ -46,6 +46,9 @@ export NVM_DIR="$HOME/.nvm"
 # Replaces autojump. --cmd j keeps the old `j` muscle memory.
 command -v zoxide >/dev/null && eval "$(zoxide init --cmd j zsh)"
 
+# --- fzf (fuzzy finder: Ctrl-R history, Ctrl-T files, Alt-C cd) ---
+command -v fzf >/dev/null && eval "$(fzf --zsh)"
+
 # --- Aliases ---
 alias ..='cd ..'
 alias ...='cd ../..'

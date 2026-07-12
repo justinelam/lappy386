@@ -87,6 +87,7 @@ c-ares
 
 ## QUALITY-OF-LIFE
 zoxide
+fzf
 zsh-syntax-highlighting
 zsh-autosuggestions
 starship

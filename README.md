@@ -41,8 +41,10 @@ What the config sets up:
   `starship.toml` (installed to `~/.config/starship.toml`) to show the **full
   working directory** and the **git branch** as plain text (no Nerd Font needed).
 - **Directory jumping:** [zoxide](https://github.com/ajeetdsouza/zoxide), aliased to
-  `j` so it's a drop-in for the muscle memory from autojump (`j <dir>`). Install
-  `fzf` too if you want the interactive `ji` picker.
+  `j` so it's a drop-in for the muscle memory from autojump (`j <dir>`); `ji` opens
+  an interactive fzf picker.
+- **Fuzzy finder:** [fzf](https://github.com/junegunn/fzf) — `Ctrl-R` history search,
+  `Ctrl-T` file picker, `Alt-C` cd; also powers zoxide's `ji`.
 - **Autosuggestions** (`zsh-autosuggestions`) and **syntax highlighting**
   (`zsh-syntax-highlighting`, sourced last, as required).
 - **Keybindings:** forces the emacs keymap (`bindkey -e`) and explicitly binds
