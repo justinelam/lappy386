@@ -1,6 +1,7 @@
 [user]
 	name = Justine Lam
 	email = 1539045+justinelam@users.noreply.github.com
+	signingkey = 8DC4BD775A9B22AB7A67226964E0DB095C2540B0
 
 [push]
   default = simple
